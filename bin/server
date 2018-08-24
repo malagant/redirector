@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const config = require("nconf")
 	.argv()
 	.file({ file: __dirname + "/../conf/config.json" })
